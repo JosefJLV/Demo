@@ -1,0 +1,105 @@
+body {
+    margin: 0px;
+}
+#navbar {
+    padding: 9px 0px;
+    background-image: url(https://cdn.oxu.az/assets/header_bg-16b933a63f94b28290d368006e6a4901530e656b79339c9ed6de9321eb73a30a.png);
+    position: fixed;
+    z-index: 4;
+    width: 100%;
+}
+
+#news {
+    position: relative;
+    top: 40px;
+}
+
+.news-item {
+    border: 1px solid #ddd;
+    margin: 15px 10px 10px;
+    position: relative;
+
+}
+
+img {
+    width: 100%;
+}
+
+.news-item-headline h1 {
+    margin: 0px;
+    padding-left: 25px;
+
+}
+
+.news-item-share {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+}
+
+.news-item-share span {
+    border: 0px solid #aaa;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    padding: 15px;
+    background-color: #ddd;
+    text-align: center;
+    width: 33%;
+    color: #848383;
+}
+
+.news-item-share span i {
+    margin-right: 5px;
+}
+
+.news-item-share span:last-child {
+    border-right: none;
+}
+
+.news-item-data {
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    position: absolute;
+}
+
+.news-item-data span {
+    text-align: center;
+    color: white;
+
+}
+
+.news-item-data span:first-child {
+    height: 50px;
+    background-color: #1894a0c9;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 9px 15px 5px 10px;
+
+}
+
+.news-item-data span:last-child {
+    height: 20px;
+    padding: 2px 13px 3px 12px;
+    background-color: #334564c7;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.navbar-nav{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.about span{
+  padding-left: 25px;
+  text-decoration: underline;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.social-media span{
+    padding-left: 30px;
+    font-size: 26px;
+}
